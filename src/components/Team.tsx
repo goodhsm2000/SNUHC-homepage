@@ -55,7 +55,7 @@ const AVATAR_COLORS = [
 export default function Team() {
   const { t } = useLanguage();
   const { data } = useData();
-  const [activeTab, setActiveTab] = useState<MemberRole | 'all'>('all');
+  const [activeTab, setActiveTab] = useState<MemberRole | 'all'>('management');
 
   const filtered = activeTab === 'all'
     ? [...data.members].sort(

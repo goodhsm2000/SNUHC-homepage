@@ -64,7 +64,7 @@ export default function About() {
           margin: '0 auto',
         }}>
           {t(
-            'SNU Humanoid Club SHAPE는 서울대학교 자율로봇 지능 연구실과 협력하여 휴머노이드 로봇 기술을 연구하는 동아리입니다. 조작, 내비게이션, 추론, 인지의 네 가지 분야에서 인간형 로봇의 자율성과 지능을 높이는 연구를 수행합니다.',
+            'SNU Humanoid Club SHAPE는 서울대학교 자율로봇지능 연구실과 협력하여 휴머노이드 로봇 기술을 연구하는 동아리입니다. 조작, 내비게이션, 추론, 인지의 네 가지 분야에서 인간형 로봇의 자율성과 지능을 높이는 연구를 수행합니다.',
             'SNU Humanoid Club SHAPE is a research club working in collaboration with the SNU Autonomous Robot Intelligence Lab. We conduct research to enhance the autonomy and intelligence of humanoid robots across four key domains: manipulation, navigation, reasoning, and perception.'
           )}
         </p>
@@ -117,10 +117,10 @@ export default function About() {
         border: '1px solid rgba(99,102,241,0.15)',
       }}>
         {[
-          { num: '2020', label: { ko: '창설 연도', en: 'Founded' } },
+          { num: '2025', label: { ko: '창설 연도', en: 'Founded' } },
           { num: '40+', label: { ko: '현 부원', en: 'Members' } },
-          { num: '10+', label: { ko: '연구 논문', en: 'Papers' } },
-          { num: '5+', label: { ko: '수상 실적', en: 'Awards' } },
+          // { num: '1+', label: { ko: '연구 논문', en: 'Papers' } },
+          // { num: '1+', label: { ko: '수상 실적', en: 'Awards' } },
         ].map((stat, i) => (
           <div key={i} style={{ textAlign: 'center', padding: '1rem' }}>
             <div style={{
